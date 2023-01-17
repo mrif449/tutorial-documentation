@@ -50,7 +50,7 @@ To bring back default: `reg.exe delete "HKCU\Software\Classes\CLSID\{86ca1aa0-34
 `Get-AppxPackage *Microsoft.GetHelp* -AllUsers | Remove-AppxPackage`   
 `Get-AppxPackage *Microsoft.People* -AllUsers | Remove-AppxPackage`   
 `Get-AppxPackage *Microsoft.WindowsCamera* -AllUsers | Remove-AppxPackage`   
-`get-appxpackage *communicationsapps* | remove-appxpackage  ` 
+`get-appxpackage *communicationsapps* | remove-appxpackage` 
 `get-appxpackage *maps* | remove-appxpackage`
 `get-appxpackage *feedback* | remove-appxpackage` 
 `get-appxpackage *officehub* | remove-appxpackage`   
