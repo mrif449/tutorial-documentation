@@ -35,6 +35,8 @@ l.  WinRAR: For compressing and decompressing all types of files.
 
 m.  VMware Workstation 17 Player: For running multiple OS.
 
+n.  Powershell: Because default powershell 2.0 has no good outdated.
+
 ### 4.   I do not like the new context design at all, so I want that back to be default. For this, open the terminal and paste this code:
 
 `reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`  
